@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabil Personal Website</title>
+</head>
+<body style="background-color: #48a2f7">
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+      <fieldset style="background-color: rgb(126, 188, 247);">
+        <legend style="text-align: center;"><h1>USER FORM</h1></legend>
+        <table borden="0" align="center">
+          <tr>
+            <td width="150px">First Name</td>
+            <td><input type="text" name="Name" id="name" placeholder="Your Name..." required></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td><input type="text" name="Email" id="email" placeholder="Your email..." required></td>
+          </tr>
+          <tr>
+            <td> No. Telephone </td>
+            <td><input type="text" name="No Telephone" id="no" placeholder="Your telephone..." required></td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td><input type="text" name="Password" placeholder="Your password..." required></td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="Gender" value="Male" /> Male
+                <input type="radio" name="Gender" value="Female" /> Female
+            </td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>
+                <p>
+                    <textarea id="addres" name="Address" placeholder="Your addres..."></textarea>
+                </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Age</td>
+            <td><input type="number" name="Age" id="age" min="1" max="200" step="1" placeholder="Your age..."></td>
+          </tr>
+          <tr>
+            <td>Date of Birth</td>
+            <td>
+                <p>
+                    <input type="date" name="Birthdate" id="date" min="2021-23-09">
+                </p>
+            </td>
+          </tr>
+          <tr>
+            <td>Select Games</td>
+             <td>
+                 <p>
+                    <input type="checkbox" name="Select Games" value="Hockey">Hockey
+                    <input type="checkbox" name="Select Games" value="Football">Football
+                    <input type="checkbox" name="Select Games" value="Cricket">Cricket
+                    <input type="checkbox" name="Select Games" value="Football">VolleyBall
+                 </p>
+            </td>
+          </tr>
+          <tr><td>Marital Status</td>
+            <td>
+                <p>
+                    <input type="radio" name="Status" value="Married" /> Married
+                    <input type="radio" name="Status" value="Unmarried" /> Unmarried
+                </p>
+                
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+                <p>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Submit</button>
+                </p>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+                <p>
+                    <input type="checkbox" name="Accept" id="accept">I accept this agrement
+                </p>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+</body>
+</html>
